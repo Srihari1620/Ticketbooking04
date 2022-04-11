@@ -4,17 +4,33 @@
     <script type="text/javascript" src="./index.js"></script>
 </head>
 <img src=".\travel.webp" >
-<h1> Welcome to SYSS travels</h1>
-<h2>Cheap flights gauranteed<h2>
+<h1> Welcome to SYSS Travels</h1>
+<h2>Cheap Flights Guaranteed<h2>
 <h2> For further enquires Contact Us on 1234 and talk to our friendly consultants - Srihari, Yashoda, Swetha, Shahana<h2>
 <h3>Bon Voyage</h3 ><br><br>
+  <header class="header">
+        
+    <nav class="navbar">
+      <ul>
+        <li>About Us</li>
+        <li>Book trip</li>
+        <li>Manage Booking</li>
+        <li>Check In</li>
+        <li>Flight Status</li>
+        <li>Flight Schedule</li>
+        <li>Contact Info</li>
+      </ul>
+    </nav>
+    </header>
     <body>
-        <h4> Search cheap flights</h4>
+        <h4> Search Flights</h4>
         <form name="myForm1" id="form1">
            <input type="radio" id="oneway" >
            <label for="One way">One Way</label>
             <input type="radio" id="Roundtrip">
-            <label for="Round trip">Round trip</label><br>
+            <label for="Round trip">Round trip</label>
+            <input type="radio" id="Multi city" value="Multi city">
+            <label for="Multi city"><span>Multi city</span></label><br>
         </form>
         <br>
         <br>
@@ -28,9 +44,16 @@
             <label for="Departure">Departure:</label>
             <input type="date" id="Departure date" name="Departure date">
             <label for="Return">Return date:</label>
-            <input type="date" id="Return date" name="Return date">
+            <input type="date" id="Return date" name="Return date"><br><br>
+            
+            <label for="Number of adults" >Adults:</label>
+            <input type="number" id="Number of adults" name="adults">
+            <label for="Number of childern" >Children:</label>
+            <input type="number" id="Number of children" name="Children">
+
         </form>
-        <br><br>
+        <br>
+
         <h4>Passenger 1 details</h4>
         <form name="myForm3" >
             <label for="fname">First name:</label>
@@ -75,12 +98,12 @@
           </form>
           <br>
          <form  name="myForm6">
-        <label for="MobileNo">Mobile No:</label>
-         <input type="text" id="Mobile No">
+             <label for="MobileNo">Mobile No:</label>
+             <input type="text" id="Mobile No">
              <label for="email">Email Id:</label>
-         <input type="text" id="Email"><br>
-        <br>
-        <br>
+              <input type="text" id="Email"><br>
+             <br>
+             <br>
         <label for="Food">Food type:</label>
 
         <select name="Food" id="Food" value="Food">
@@ -90,8 +113,8 @@
               <option value="Gulten free">Gulten free</option>
         </select>
 
-        <label for="Payment">Payment Mode:</label>
-         <select name="Payment" id="Payment" value="Payment">
+              <label for="Payment">Payment Mode:</label>
+              <select name="Payment" id="Payment" value="Payment">
               <option value="Credit Card">Credit Card</option>
               <option value="Bank transfer">Bank transfer</option>
               <option value="Paypal">Paypal</option>

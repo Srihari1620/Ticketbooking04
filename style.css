@@ -24,4 +24,77 @@ label{
    p{
        text-align: center;
    }
+   body
+   {
+   background-color:rgb(242, 242, 232);
+   border: 10px;
+   }
+   .navbar{
+    display: block;
+    background-color: rgb(152, 176, 168);
+    text-align: center;
+  
+    
+  }
+  li{
+    display: inline-flex;
+    padding: 0px 3vw;
+    align-items: center;
+    
+  }
+  
+  .navbar ul li {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: larger;
+    list-style-type:none;
+  }
+
+  body{
+    background-image: url(flightpic.jpg.jpg);
+    background-size: cover;
+}
+
+.h1{
+    font-family:  "Times New Roman" , 'Times New Roman', Times, serif;
+  
+  }
+
+  input[type=text] {
+  
+    padding: 2px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  input[type=number] {
+  
+    padding: 2px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=date] {
+  
+    padding: 2px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+  }
+ input[type=submit] {
+    background-color: rgb(152, 176, 168);
+    border: none;
+    color: rgb(17, 17, 17);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+     }
+
+     
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
   
